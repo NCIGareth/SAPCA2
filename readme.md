@@ -6,7 +6,7 @@ $ docker network create some-network
 ```Docker
 $ docker run --name db -e MYSQL_ROOT_PASSWORD=my-secret-password -d mysql:latest
 ```
-#Run phpmyadmin docker image on port 80
+# Run phpmyadmin docker image on port 80
 ```Docker
 docker run \
 	-p 8080:80 \
